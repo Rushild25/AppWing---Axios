@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#f7f7f7"
+    tools:ignore="ExtraText">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="366dp"
+        app:srcCompat="@drawable/nimbus_clock_logo"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:backgroundTint="#f7f7f7"
+        android:text="Enter >"
+        android:textColor="@color/black"
+        android:textSize="35dp"
+        android:id="@+id/btn_enter"
+        />
+    //try changing the font family for the button.
+
+</LinearLayout>
